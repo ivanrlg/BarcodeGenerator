@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BarcodeGenerator.Models
+﻿namespace BarcodeGenerator.Models
 {
     public class Response<T> where T : class
     {

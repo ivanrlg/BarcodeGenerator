@@ -1,6 +1,4 @@
-﻿using ZXing;
-
-namespace BarcodeGenerator.Models
+﻿namespace BarcodeGenerator.Models
 {
     public class BarcodeModel
     {

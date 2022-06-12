@@ -10,7 +10,6 @@ using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using System;
 using System.IO;
-using System.Text;
 using System.Threading.Tasks;
 using ZXing;
 using ZXing.Common;
