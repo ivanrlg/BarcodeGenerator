@@ -125,7 +125,11 @@ namespace BarcodeGenerator
                     using (MemoryStream ms = new MemoryStream())
                     {
                         img.SaveAsPng(ms);
-                        return new FileContentResult(ms.ToArray(), "image/png");
+                        return new OkObjectResult(new Response<byte[]>
+                        {
+                            Result = ms.ToArray(),
+                            IsSuccess = true,
+                        });
                     }
                 }
             }
